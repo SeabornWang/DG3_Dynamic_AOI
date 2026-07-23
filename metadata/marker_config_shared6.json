@@ -1,0 +1,59 @@
+{
+  "dictionary": "DICT_4X4_50",
+  "scheme": "shared6_pilot_simple_v6_35mm",
+  "marker_roles": {
+    "DeliveryOuter": [
+      1,
+      2
+    ],
+    "SharedBoundary": [
+      3,
+      4
+    ],
+    "TaskOuter": [
+      5,
+      6
+    ],
+    "RobotArm": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "Gripper": [
+      13,
+      14,
+      15
+    ]
+  },
+  "table_reference_points_normalized": {
+    "1": [
+      0.0,
+      0.0
+    ],
+    "2": [
+      1.0,
+      0.0
+    ],
+    "3": [
+      0.0,
+      0.5
+    ],
+    "4": [
+      1.0,
+      0.5
+    ],
+    "5": [
+      0.0,
+      1.0
+    ],
+    "6": [
+      1.0,
+      1.0
+    ]
+  },
+  "notes": {
+    "9_12": "Attach to different visible faces or segments of the robot arm. Any one marker can define the RobotArm AOI.",
+    "13_15": "Place IDs 13, 14, and 15 on different gripper faces so at least one remains visible. Align each marker top edge with the gripper long axis when possible."
+  }
+}
